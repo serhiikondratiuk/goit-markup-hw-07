@@ -5,9 +5,7 @@
   height: 100vh;
   width: 100vw;
   z-index: 100;
-
   background-color: rgba(0, 0, 0, 0.2);
-
   transition: opacity 250ms linear, visibility 250ms linear, transform 250ms linear;
   transform: scale(1);
 }

@@ -28,9 +28,10 @@
 
   transition: fill var(--transition-duration) var(--transition-timing-function),
     border var(--transition-duration) var(--transition-timing-function);
-}
-.clients__link:hover,
-.clients__link:focus {
-  fill: var(--primary-accent-color);
-  border: 1px solid var(--primary-accent-color);
+
+  &:hover,
+  &:focus {
+    fill: var(--primary-accent-color);
+    border: 1px solid var(--primary-accent-color);
+  }
 }
